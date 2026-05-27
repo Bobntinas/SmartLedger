@@ -1,0 +1,33 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SmartLedger.API/SmartLedger.API.csproj" />
+    <Project Path="src/SmartLedger.Application/SmartLedger.Application.csproj" />
+    <Project Path="src/SmartLedger.Domain/SmartLedger.Domain.csproj" />
+    <Project Path="src/SmartLedger.Infrastructure/SmartLedger.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Budgets/">
+    <Project Path="src/Modules/Budgets/SmartLedger.Budgets.Application/SmartLedger.Budgets.Application.csproj" />
+    <Project Path="src/Modules/Budgets/SmartLedger.Budgets.Domain/SmartLedger.Budgets.Domain.csproj" />
+    <Project Path="src/Modules/Budgets/SmartLedger.Budgets.Infrastructure/SmartLedger.Budgets.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Finance/">
+    <Project Path="src/Modules/Finance/SmartLedger.Finance.Application/SmartLedger.Finance.Application.csproj" />
+    <Project Path="src/Modules/Finance/SmartLedger.Finance.Domain/SmartLedger.Finance.Domain.csproj" />
+    <Project Path="src/Modules/Finance/SmartLedger.Finance.Infrastructure/SmartLedger.Finance.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/SmartLedger.Identity.Application/SmartLedger.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/SmartLedger.Identity.Domain/SmartLedger.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/SmartLedger.Identity.Infrastructure/SmartLedger.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Reporting/">
+    <Project Path="src/Modules/Reporting/SmartLedger.Reporting.Application/SmartLedger.Reporting.Application.csproj" />
+    <Project Path="src/Modules/Reporting/SmartLedger.Reporting.Infrastructure/SmartLedger.Reporting.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SmartLedger.Application.Tests/SmartLedger.Application.Tests.csproj" />
+    <Project Path="tests/SmartLedger.Domain.Tests/SmartLedger.Domain.Tests.csproj" />
+    <Project Path="tests/SmartLedger.Integration.Tests/SmartLedger.Integration.Tests.csproj" />
+  </Folder>
+</Solution>

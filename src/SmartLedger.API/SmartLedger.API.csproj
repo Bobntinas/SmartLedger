@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartLedger.Application\SmartLedger.Application.csproj" />
+    <ProjectReference Include="..\SmartLedger.Infrastructure\SmartLedger.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Identity\SmartLedger.Identity.Application\SmartLedger.Identity.Application.csproj" />
+    <ProjectReference Include="..\Modules\Identity\SmartLedger.Identity.Infrastructure\SmartLedger.Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Finance\SmartLedger.Finance.Application\SmartLedger.Finance.Application.csproj" />
+    <ProjectReference Include="..\Modules\Finance\SmartLedger.Finance.Infrastructure\SmartLedger.Finance.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Budgets\SmartLedger.Budgets.Application\SmartLedger.Budgets.Application.csproj" />
+    <ProjectReference Include="..\Modules\Budgets\SmartLedger.Budgets.Infrastructure\SmartLedger.Budgets.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Reporting\SmartLedger.Reporting.Application\SmartLedger.Reporting.Application.csproj" />
+    <ProjectReference Include="..\Modules\Reporting\SmartLedger.Reporting.Infrastructure\SmartLedger.Reporting.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
