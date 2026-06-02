@@ -7,4 +7,13 @@
 		<LangVersion>latest</LangVersion>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 	</PropertyGroup>
+
+	<!-- Pin EF Core and Npgsql to .NET 9 compatible versions globally -->
+	<ItemGroup>
+		<PackageReference Update="Microsoft.EntityFrameworkCore" Version="9.*" />
+		<PackageReference Update="Microsoft.EntityFrameworkCore.Tools" Version="9.*" />
+		<PackageReference Update="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.*" />
+		<PackageReference Update="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.*" />
+		<PackageReference Update="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.*" />
+	</ItemGroup>
 </Project>
